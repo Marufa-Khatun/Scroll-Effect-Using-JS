@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    font-size: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../img/building.jpg');
+    background-size: cover;
+}
+.cat{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),   url('../img/cat.jpg');
+    background-size: cover;
+}
+.forest{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),   url('../img/forest.jpg');
+    background-size: cover;
+}
+.flower{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),   url('../img/flower.jpg');
+    background-size: cover;
+}
